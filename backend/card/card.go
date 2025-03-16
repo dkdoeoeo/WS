@@ -1,6 +1,7 @@
 package card
 
 type Card struct {
+	//遊戲特徵
 	Name           string         // 名稱
 	Level          int            // 等級
 	Cost           int            // 代價
@@ -11,14 +12,18 @@ type Card struct {
 	Damage_points  int            //魂傷
 	Feature        []string       //特徵
 	Color          int            //1紅色、2藍色、3黃色
-	ImagePath      string
+	//系統特徵
+	ImagePath   string
+	Card_Series int
+	Id          int
+	Type        int //1角色、2事件、3名場面
 }
 
 type Deck struct {
 	Cards []Card // 卡片陣列
 }
 
-func NewCard(name string, level int, cost int, counterattack bool, spcial_effect Special_effect, card_effect Card_effect, power int, damage_points int, feature []string, color int, imagePath string) *Card {
+func NewCard(name string, level int, cost int, counterattack bool, spcial_effect Special_effect, card_effect Card_effect, power int, damage_points int, feature []string, color int, imagePath string, card_Series int, id int, card_type int) *Card {
 	return &Card{
 		Name:           name,
 		Level:          level,
@@ -31,6 +36,9 @@ func NewCard(name string, level int, cost int, counterattack bool, spcial_effect
 		Feature:        feature,
 		Color:          color,
 		ImagePath:      imagePath,
+		Card_Series:    card_Series,
+		Id:             id,
+		Type:           card_type,
 	}
 }
 

@@ -40,6 +40,8 @@ func handleConnection(conn *websocket.Conn) {
 func main() {
 	r := gin.Default()
 
+	r.Static("/images", "./image")
+
 	r.GET("/ws", func(c *gin.Context) {
 		conn, err := upgrader.Upgrade(c.Writer, c.Request, nil)
 		if err != nil {

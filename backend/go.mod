@@ -1,4 +1,4 @@
-module github.com/yourname/WS/backend
+module github.com/timy/WS/backend
 
 go 1.23.2
 
