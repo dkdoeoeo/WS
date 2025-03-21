@@ -1,0 +1,150 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="第 1 页" id="mpcIeqm-QS8MAXDQSGFz">
+    <mxGraphModel dx="1195" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Rb13nmRvyijw0ei2ED4-1" target="7Rb13nmRvyijw0ei2ED4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Rb13nmRvyijw0ei2ED4-1" target="7Rb13nmRvyijw0ei2ED4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-1" value="準備階段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="127" y="70" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-2" value="將場上橫置牌&lt;br&gt;轉成待命" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Rb13nmRvyijw0ei2ED4-4" target="7Rb13nmRvyijw0ei2ED4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Rb13nmRvyijw0ei2ED4-4" target="7Rb13nmRvyijw0ei2ED4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-4" value="抽牌階段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-5" value="從牌組抽一張牌" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7Rb13nmRvyijw0ei2ED4-8" target="7Rb13nmRvyijw0ei2ED4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Rb13nmRvyijw0ei2ED4-8" target="7Rb13nmRvyijw0ei2ED4-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-8" value="痛一抽二階段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Rb13nmRvyijw0ei2ED4-10" target="7Rb13nmRvyijw0ei2ED4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-10" value="可選擇痛一抽二" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Rb13nmRvyijw0ei2ED4-12" target="7Rb13nmRvyijw0ei2ED4-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-12" value="是否升級" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-14" value="7選一到等級區&lt;br&gt;其它到休息區" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-16" value="yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Rb13nmRvyijw0ei2ED4-17" target="7Rb13nmRvyijw0ei2ED4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Rb13nmRvyijw0ei2ED4-17" target="7Rb13nmRvyijw0ei2ED4-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-17" value="主要階段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-19" value="可進行4種行動:&lt;div&gt;1.使用事件卡&lt;/div&gt;&lt;div&gt;2.使用角色卡&lt;/div&gt;&lt;div&gt;3.移動角色卡&lt;/div&gt;&lt;div&gt;4.使用角色能力&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="355" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Rb13nmRvyijw0ei2ED4-21" target="7Rb13nmRvyijw0ei2ED4-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Rb13nmRvyijw0ei2ED4-21" target="7Rb13nmRvyijw0ei2ED4-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-21" value="名場面階段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-23" value="可放置名場面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Rb13nmRvyijw0ei2ED4-25" target="7Rb13nmRvyijw0ei2ED4-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Rb13nmRvyijw0ei2ED4-25" target="7Rb13nmRvyijw0ei2ED4-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-25" value="攻擊階段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Rb13nmRvyijw0ei2ED4-27" target="7Rb13nmRvyijw0ei2ED4-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-27" value="攻擊宣言" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287" y="577.5" width="93" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Rb13nmRvyijw0ei2ED4-29" target="7Rb13nmRvyijw0ei2ED4-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-29" value="觸發" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="577.5" width="83" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Rb13nmRvyijw0ei2ED4-31" target="7Rb13nmRvyijw0ei2ED4-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-31" value="反擊" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="575" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Rb13nmRvyijw0ei2ED4-33" target="7Rb13nmRvyijw0ei2ED4-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-33" value="傷害計算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="575" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Rb13nmRvyijw0ei2ED4-35" target="7Rb13nmRvyijw0ei2ED4-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-35" value="戰鬥" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="575" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Rb13nmRvyijw0ei2ED4-37" target="7Rb13nmRvyijw0ei2ED4-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="550" />
+              <mxPoint x="333" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Rb13nmRvyijw0ei2ED4-37" target="7Rb13nmRvyijw0ei2ED4-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-37" value="還要打嗎?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-40" value="yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-41" value="再演" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="580" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-44" value="no" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7Rb13nmRvyijw0ei2ED4-45" value="結束階段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

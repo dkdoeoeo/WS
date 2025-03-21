@@ -21,10 +21,10 @@
         <p>{{ card.name }}</p>
       </div>
     </div>
-    <button @click="submitDeckSelection" :disabled="selectedCardIds.length !== 50">
+    <button @click="submitDeckSelection" :disabled="selectedCardIds.length !== 1">
       提交選擇的卡牌
     </button>
-    <p v-if="selectedCardIds.length === 50">已選擇 50 張卡牌，準備提交！</p>
+    <p v-if="selectedCardIds.length === 1">已選擇 50 張卡牌，準備提交！</p>
   </div>
 </template>
 
