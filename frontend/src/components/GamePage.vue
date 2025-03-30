@@ -1,18 +1,19 @@
 <template>
-    <div>
-      <h2>遊戲開始！</h2>
-      <p>這裡顯示遊戲進行中的內容。</p>
-      <button @click="endGame">結束遊戲</button>
-    </div>
-  </template>
-  
-  <script>
-  export default {
-    methods: {
-      endGame() {
-        this.$router.push("/"); // 返回選擇卡牌頁面
-      },
-    },
-  };
-  </script>
-  
+  <div>
+    <h2>遊戲頁面</h2>
+    <p>Player ID: {{ playerID }}</p>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      playerID: null,
+    };
+  },
+  created() {
+    this.playerID = this.$route.query.playerID;
+  },
+};
+</script>

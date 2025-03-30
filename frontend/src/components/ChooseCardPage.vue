@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>玩家ID: {{ playerId }}</h1>
     <h2>選擇卡片系列</h2>
     <div>
       <button @click="selectCardSeries(1)">少女樂團系列</button>
@@ -37,7 +38,17 @@ export default {
       selectedSeries: null,  // 目前選擇的卡片系列
       cardList,
       selectedCardIds: [], // 存放選擇的卡牌 ID
+      playerId : -1,
     };
+  },
+  created() {
+    localStorage.clear()
+    let storedPlayerId = localStorage.getItem("player_id");
+    if (storedPlayerId) {
+      this.playerId = Number(storedPlayerId);
+    } else {
+      localStorage.setItem("player_id", this.playerId);
+    }
   },
   computed: {
     // 根據選擇的系列過濾卡片
@@ -95,12 +106,25 @@ export default {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ selectedCardIds: this.selectedCardIds }),
+        body: JSON.stringify({ 
+          selectedCardIds: this.selectedCardIds ,
+          player_id: this.playerId
+        }),
       })
       .then(response => response.json())
       .then(data => {
-        console.log("選擇的卡牌已提交", data);
-        // 可以在這裡使用 data 來進行後續操作
+        console.log("選擇的卡牌已提交", data);  // 確認是否收到後端返回的 JSON
+
+        console.log("收到的數據:", data);
+
+        if (Object.prototype.hasOwnProperty.call(data, 'curPlayerId')) {
+          console.log("收到的玩家 ID:", data.curPlayerId); // 打印 playerId
+          this.playerId = data.curPlayerId;  // 更新 playerId
+          localStorage.setItem("player_id", this.playerId);  // 儲存 playerId 到 localStorage
+        } else {
+          console.error("沒有收到 curPlayerId!");
+        }
+
         this.$router.push("/matchmaking"); // 完成選擇後，跳轉到配對頁面
       })
       .catch(error => {
